@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8324cf93-ed28-4122-8616-f3ed3ef7be5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apcsa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/phrases.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Board.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twofivetwo/HelperFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twofivetwo/PhraseSolver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Runner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apcsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apcsa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/HelperFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/PhraseSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Runner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +39,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ajesc\IdeaProjects\apcsa\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunnerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twofivetwo.RunnerKt" />
+      <module name="apcsa" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AP-CSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AP-CSA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.RunnerKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,5 +86,16 @@
       <updated>1676348037516</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
