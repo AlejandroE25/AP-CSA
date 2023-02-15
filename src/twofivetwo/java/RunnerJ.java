@@ -1,13 +1,13 @@
-package twofivetwo;
+package twofivetwo.java;
 
-public class Runner
+public class RunnerJ
 {
     public static void main(String[] args)
     {
-        Player p1 = new Player("Test Name");
+        PlayerJ p1 = new PlayerJ("Test Name");
         System.out.println("P1 Name:" + p1.getName());
 
-        Player p2 = new Player(p1);
+        PlayerJ p2 = new PlayerJ(p1);
         System.out.println("P1 Name:" + p1.getName());
 
         System.out.println("P2 Name:" + p2.getName());

@@ -1,4 +1,4 @@
-package twofivetwo
+package twofivetwo.kotlin
 
 class PhraseSolver {
     private val player1: Player

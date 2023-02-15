@@ -1,7 +1,7 @@
-package twofivetwo
+package twofivetwo.kotlin
 
-import twofivetwo.HelperFunctions.input
-import twofivetwo.HelperFunctions.print
+import twofivetwo.kotlin.HelperFunctions.input
+import twofivetwo.kotlin.HelperFunctions.print
 
 class Player {
     private var name = ""
@@ -21,15 +21,18 @@ class Player {
     }
 
     constructor(p: Player) {
+        /* incomplete */
         name = p.name
         points = p.points
     }
 
     fun getName(): String {
+        /* Incomplete */
         return name
     }
 
     fun setName(x: String) {
+        /* incomplete */
         name = x
     }
 }

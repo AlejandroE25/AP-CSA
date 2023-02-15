@@ -1,26 +1,26 @@
-package twofivetwo;
+package twofivetwo.java;
 
-import static twofivetwo.HelperFunctions.input;
-import static twofivetwo.HelperFunctions.print;
+import static twofivetwo.java.HelperFunctionsJ.input;
+import static twofivetwo.java.HelperFunctionsJ.print;
 
-public class Player
+public class PlayerJ
 {
     private String name = "";
     private double points;
 
-    public Player(){
+    public PlayerJ(){
         this.name = input("Enter Player Name: ");
         print("Welcome ", this.name);
         this.points = 0;
     }
 
-    public Player(String playerName) {
+    public PlayerJ(String playerName) {
         this.name = playerName;
         print("Welcome ", this.name);
         this.points = 0;
     }
 
-    public Player(Player p)
+    public PlayerJ(PlayerJ p)
     {
         name = p.name;
         p.name = "Overwritten Name";

@@ -1,17 +1,17 @@
-package twofivetwo;
+package twofivetwo.java;
 
-public class PhraseSolver {
-    private Player player1;
-    private Player player2;
+public class PhraseSolverJ {
+    private PlayerJ playerJ1;
+    private PlayerJ playerJ2;
 
-    private Board game;
+    private BoardJ game;
 
     private Boolean solved;
 
-    public PhraseSolver(){
-        this.player1 = new Player();
-        this.player2 = new Player();
-        this.game = new Board();
+    public PhraseSolverJ(){
+        this.playerJ1 = new PlayerJ();
+        this.playerJ2 = new PlayerJ();
+        this.game = new BoardJ();
         this.solved = false;
     }
 

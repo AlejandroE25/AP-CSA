@@ -1,10 +1,10 @@
-package twofivetwo;
+package twofivetwo.java;
 import java.util.Scanner;
 import java.io.File;
 
-import static twofivetwo.HelperFunctions.print;
+import static twofivetwo.java.HelperFunctionsJ.print;
 
-public class  Board
+public class BoardJ
 {
     private String solvedPhrase;
     private String phrase;
@@ -12,10 +12,10 @@ public class  Board
 
     /* your code here - constructor(s) */
 
-    public Board() {
+    public BoardJ() {
         this.solvedPhrase = "";
         this.phrase = this.loadPhrase();
-        this.currentLetterValue = this.setLetterValue();
+        /*this.currentLetterValue =*/ this.setLetterValue();
         print("Phrase:", this.phrase);
     }
 
@@ -47,7 +47,7 @@ public class  Board
         int numOfLines = 0;
         try
         {
-            Scanner sc = new Scanner(new File("phrases.txt"));
+            Scanner sc = new Scanner(new File("src/twofivetwo/java/phrases.txt"));
             while (sc.hasNextLine())
             {
                 tempPhrase = sc.nextLine().trim();
@@ -60,7 +60,7 @@ public class  Board
         try
         {
             int count = 0;
-            Scanner sc = new Scanner(new File("phrases.txt"));
+            Scanner sc = new Scanner(new File("src/twofivetwo/java/phrases.txt"));
             while (sc.hasNextLine())
             {
                 count++;

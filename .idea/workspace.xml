@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8324cf93-ed28-4122-8616-f3ed3ef7be5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/HelperFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/PhraseSolver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twofivetwo/Runner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apcsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apcsa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/HelperFunctions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/PhraseSolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twofivetwo/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +25,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ajesc\IdeaProjects\apcsa\src" />
