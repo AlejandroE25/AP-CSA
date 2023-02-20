@@ -10,6 +10,8 @@ public class BoardJ
     private String phrase;
     private int currentLetterValue;
 
+    public Boolean gameWon = false;
+
     /* your code here - constructor(s) */
 
     public BoardJ() {
@@ -21,23 +23,48 @@ public class BoardJ
 
     /* your code here - accessor(s) */
 
+    public String getSolvedPhrase() {
+        return solvedPhrase;
+    }
+
+    public String getPhrase() {
+        return phrase;
+    }
+
+    public int getCurrentLetterValue() {
+        return currentLetterValue;
+    }
+
+    public Boolean getGameWon() {
+        boolean won = true;
+        for (int i = 0; i < solvedPhrase.length(); i++) {
+            if (solvedPhrase.charAt(i) == '_') {
+                won = false;
+            }
+        }
+        gameWon = won;
+        return gameWon;
+    }
+
     /* your code here - mutator(s)  */
 
+    public void setSolvedPhrase(String solvedPhrase) {
+        this.solvedPhrase = solvedPhrase;
+    }
+
+    public void setPhrase(String phrase) {
+        this.phrase = phrase;
+    }
 
     /* ---------- provided code, do not modify ---------- */
     public void setLetterValue()
     {
-        int randomInt = (int) ((Math.random() * 10) + 1) * 100;
-        currentLetterValue = randomInt;
+        currentLetterValue = (int) ((Math.random() * 10) + 1) * 100;
     }
 
     public boolean isSolved(String guess)
     {
-        if (phrase.equals(guess))
-        {
-            return true;
-        }
-        return false;
+        return phrase.equals(guess);
     }
 
     private String loadPhrase()

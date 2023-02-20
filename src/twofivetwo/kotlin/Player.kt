@@ -6,7 +6,6 @@ import twofivetwo.kotlin.HelperFunctions.print
 class Player {
     private var name = ""
     var points = 0.0
-        private set
 
     constructor() {
         name = input("Enter Player Name:")

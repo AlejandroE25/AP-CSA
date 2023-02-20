@@ -4,27 +4,46 @@ import java.io.File
 import java.util.*
 
 class Board {
-    private var solvedPhrase = ""
+    var solvedPhrase = ""
     private val phrase: String
-    private var currentLetterValue = 0
+    var currentLetterValue = 0
+    val gameWon: Boolean
+        get() {
+            var won = true
+            for (i in 0 until solvedPhrase.length) {
+                if (solvedPhrase.substring(i, i + 1) == "_") {
+                    won = false
+                }
+            }
+            return won
+        }
 
     /* your code here - constructor(s) */
     init {
         phrase = loadPhrase()
         /*this.currentLetterValue = */setLetterValue()
-        HelperFunctions.print("Phrase:", phrase)
     }
 
-    /* your code here - accessor(s) */ /* your code here - mutator(s)  */ /* ---------- provided code, do not modify ---------- */
+    /**
+     * This function sets the current letter value
+     */
     fun setLetterValue() {
         val randomInt = (Math.random() * 10 + 1).toInt() * 100
         currentLetterValue = randomInt
     }
 
+    /**
+     * Checks whether the phrase has been solved
+     * @param guess the current guess
+     * @return true if the phrase has been solved, false otherwise
+     */
     fun isSolved(guess: String): Boolean {
         return phrase == guess
     }
 
+    /**
+     * Loads a phrase from the file phrases.txt
+     */
     private fun loadPhrase(): String {
         var tempPhrase = ""
         var numOfLines = 0
@@ -61,6 +80,10 @@ class Board {
         return tempPhrase
     }
 
+    /**
+     * Checks if the letter is in the phrase
+     * @return true if the letter is in the phrase, false otherwise
+     */
     fun guessLetter(guess: String): Boolean {
         var foundLetter = false
         var newSolvedPhrase = ""

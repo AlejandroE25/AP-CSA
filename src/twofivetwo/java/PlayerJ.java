@@ -41,5 +41,10 @@ public class PlayerJ
         return points;
     }
 
+    public void setPoints(double x) {points = x;}
+
+    public void addPoints(double x) {points += x;}
+
+
 }
 
