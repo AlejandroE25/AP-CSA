@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8324cf93-ed28-4122-8616-f3ed3ef7be5e" name="Changes" comment="Update gitignore">
+      <change afterPath="$PROJECT_DIR$/src/practiseaptest/HelperFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiseaptest/OnePartA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiseaptest/OnePartB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/java/BoardJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/java/BoardJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/java/PhraseSolverJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/java/PhraseSolverJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/java/PlayerJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/java/PlayerJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/java/RunnerJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/java/RunnerJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/kotlin/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/kotlin/Board.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/kotlin/PhraseSolver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/kotlin/PhraseSolver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/kotlin/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/kotlin/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twofivetwo/kotlin/Runner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/twofivetwo/kotlin/Runner.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,15 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/corsairit/IdeaProjects/AP-CSA/src/twofivetwo/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/corsairit/IdeaProjects/AP-CSA/src/twofivetwo/java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\corsairit\IdeaProjects\AP-CSA\src\twofivetwo\java" />
@@ -49,8 +55,37 @@
       <recent name="C:\Users\corsairit\IdeaProjects\AP-CSA\src\twofivetwo\kotlin" />
       <recent name="C:\Users\ajesc\IdeaProjects\apcsa\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practiseaptest" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OnePartB">
+    <configuration name="OnePartA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiseaptest.OnePartA" />
+      <module name="apcsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiseaptest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnePartB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiseaptest.OnePartB" />
+      <module name="apcsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiseaptest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twofivetwo.kotlin.RunnerKt" />
       <module name="apcsa" />
@@ -59,21 +94,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="AP-CSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="AP-CSA" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnePartB" />
+        <item itemvalue="Application.OnePartA" />
         <item itemvalue="Kotlin.RunnerKt" />
       </list>
     </recent_temporary>
@@ -119,5 +143,16 @@
     <MESSAGE value="Split up the kotlin and java files" />
     <MESSAGE value="Update gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practiseaptest/OnePartB.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
