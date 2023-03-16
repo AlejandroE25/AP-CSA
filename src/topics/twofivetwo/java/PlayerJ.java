@@ -1,7 +1,7 @@
-package twofivetwo.java;
+package topics.twofivetwo.java;
 
-import static twofivetwo.java.HelperFunctionsJ.input;
-import static twofivetwo.java.HelperFunctionsJ.print;
+import static topics.twofivetwo.java.HelperFunctionsJ.input;
+import static topics.twofivetwo.java.HelperFunctionsJ.print;
 
 public class PlayerJ
 {

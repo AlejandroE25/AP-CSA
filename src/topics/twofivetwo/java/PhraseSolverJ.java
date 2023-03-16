@@ -1,7 +1,7 @@
-package twofivetwo.java;
+package topics.twofivetwo.java;
 
 import static java.lang.System.exit;
-import static twofivetwo.java.HelperFunctionsJ.*;
+import static topics.twofivetwo.java.HelperFunctionsJ.*;
 
 public class PhraseSolverJ {
     private PlayerJ playerJ1;

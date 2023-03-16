@@ -1,4 +1,4 @@
-package twofivetwo.kotlin
+package topics.twofivetwo.kotlin
 
 import java.util.*
 
@@ -35,7 +35,6 @@ internal object HelperFunctions {
     }
 
     fun int(numString: String): Int {
-        var finalInt = 0
         var str = ""
         for (ch in numString) {
             if (ch in nums) {
@@ -43,7 +42,6 @@ internal object HelperFunctions {
             }
             else break
         }
-        finalInt = str.toInt()
-        return finalInt
+        return str.toInt()
     }
 }

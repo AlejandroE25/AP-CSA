@@ -1,4 +1,4 @@
-package twofivetwo.kotlin
+package topics.twofivetwo.kotlin
 
 import java.io.File
 import java.util.*
@@ -48,7 +48,7 @@ class Board {
         var tempPhrase = ""
         var numOfLines = 0
         try {
-            val sc = Scanner(File("src/twofivetwo/kotlin/phrases.txt"))
+            val sc = Scanner(File("src/topics.twofivetwo/kotlin/phrases.txt"))
             while (sc.hasNextLine()) {
                 tempPhrase = sc.nextLine().trim { it <= ' ' }
                 numOfLines++
@@ -59,7 +59,7 @@ class Board {
         val randomInt = (Math.random() * numOfLines + 1).toInt()
         try {
             var count = 0
-            val sc = Scanner(File("src/twofivetwo/kotlin/phrases.txt"))
+            val sc = Scanner(File("src/topics.twofivetwo/kotlin/phrases.txt"))
             while (sc.hasNextLine()) {
                 count++
                 val temp = sc.nextLine().trim { it <= ' ' }

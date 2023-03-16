@@ -1,7 +1,7 @@
-package twofivetwo.kotlin
+package topics.twofivetwo.kotlin
 
-import twofivetwo.kotlin.HelperFunctions.input
-import twofivetwo.kotlin.HelperFunctions.print
+import topics.twofivetwo.kotlin.HelperFunctions.input
+import topics.twofivetwo.kotlin.HelperFunctions.print
 
 class Player {
     private var name = ""

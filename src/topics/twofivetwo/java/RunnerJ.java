@@ -1,4 +1,4 @@
-package twofivetwo.java;
+package topics.twofivetwo.java;
 
 public class RunnerJ
 {

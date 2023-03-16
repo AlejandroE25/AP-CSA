@@ -1,8 +1,8 @@
-package twofivetwo.java;
+package topics.twofivetwo.java;
 import java.util.Scanner;
 import java.io.File;
 
-import static twofivetwo.java.HelperFunctionsJ.print;
+import static topics.twofivetwo.java.HelperFunctionsJ.print;
 
 public class BoardJ
 {
@@ -74,7 +74,7 @@ public class BoardJ
         int numOfLines = 0;
         try
         {
-            Scanner sc = new Scanner(new File("src/twofivetwo/java/phrases.txt"));
+            Scanner sc = new Scanner(new File("src/topics.twofivetwo/java/phrases.txt"));
             while (sc.hasNextLine())
             {
                 tempPhrase = sc.nextLine().trim();
@@ -87,7 +87,7 @@ public class BoardJ
         try
         {
             int count = 0;
-            Scanner sc = new Scanner(new File("src/twofivetwo/java/phrases.txt"));
+            Scanner sc = new Scanner(new File("src/topics.twofivetwo/java/phrases.txt"));
             while (sc.hasNextLine())
             {
                 count++;

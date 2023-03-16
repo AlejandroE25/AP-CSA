@@ -1,6 +1,6 @@
-package practiseaptest;
+package topics.practiseaptest;
 
-import static practiseaptest.HelperFunctions.print;
+import static topics.practiseaptest.HelperFunctions.print;
 
 public class OnePartB {
     public static boolean isLeapYear(int year) {

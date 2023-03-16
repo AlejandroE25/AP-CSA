@@ -1,8 +1,8 @@
-package practiseaptest;
+package topics.twofivetwo.java;
 
 import java.util.Scanner;
 
-class HelperFunctions {
+class HelperFunctionsJ {
 
   public static void print(Object... args){ //I made my own print function.  Because java is special.
     for (Object obj : args){

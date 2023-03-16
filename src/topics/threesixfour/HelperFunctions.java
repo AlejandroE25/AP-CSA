@@ -1,8 +1,8 @@
-package twofivetwo.java;
+package topics.threesixfour;
 
 import java.util.Scanner;
 
-class HelperFunctionsJ {
+class HelperFunctions {
 
   public static void print(Object... args){ //I made my own print function.  Because java is special.
     for (Object obj : args){
@@ -14,14 +14,13 @@ class HelperFunctionsJ {
   public static String input(String question){ // I made my own input function.  Because java is special.
     print(question);
     Scanner readLn = new Scanner(System.in);
-    String input = readLn.nextLine();
-    // Intentionall didn't close the reader.  Because Java is special
-    return input;
+    // Intentionally didn't close the reader.  Because Java is special
+    return readLn.nextLine();
   }
 
   public static void sleep(int secondsToSleep){
     try {
-    Thread.sleep(secondsToSleep * 1000);
+    Thread.sleep(secondsToSleep * 1000L);
     }
     catch (InterruptedException ie) {
       Thread.currentThread().interrupt();

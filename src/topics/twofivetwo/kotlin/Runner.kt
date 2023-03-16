@@ -1,4 +1,4 @@
-package twofivetwo.kotlin
+package topics.twofivetwo.kotlin
 
 fun main() {
     val game = PhraseSolver()
